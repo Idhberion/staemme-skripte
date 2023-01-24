@@ -202,7 +202,7 @@ api.register( '470-Raubzug schicken', true, 'osse, TheHebel97', 'support-nur-im-
             $(".candidate-squad-widget > tbody > tr").eq(0).append("<th>Senden</th>");
             $(".candidate-squad-widget > tbody > tr").eq(1).append('<td><button class="SendScavenger btn">Raubzug senden</button></td>');
             $(".candidate-squad-widget > tbody > tr").eq(0).append("<th>How to Use</th>");
-            $(".candidate-squad-widget > tbody > tr").eq(1).append('<td><img class="quickbar_image" data-src="https://dsde.innogamescdn.com/asset/4d47dbcf/graphic/unit/unit_axe.png" alt="" src="https://dsde.innogamescdn.com/asset/4d47dbcf/graphic/unit/unit_axe.png"></td>');
+            $(".candidate-squad-widget > tbody > tr").eq(1).append('<td><img class="quickbar_image" data-src="https://dsde.innogamescdn.com/asset/ed7de11c/graphic/command/support.png" alt="" src="https://dsde.innogamescdn.com/asset/ed7de11c/graphic/command/support.png"></td>');
             let Options = `<label>max. Truppen</label><input class="maxTroops" type="number" min="10" max="10000" checked><button class="clearLocalStorage btn">Default l\u00f6schen</button><button class="saveLocalStorage btn">Default speichern</button>
             `;
             $(".candidate-squad-widget").before(Options);
